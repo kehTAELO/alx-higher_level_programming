@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 number = "3.14159"
 
-print("Float:", (number[0:4]))
+print(f"Float: {nuber:.2f})
