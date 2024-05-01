@@ -1,4 +1,4 @@
-def copy_list(l):
-    l == [int,float,str]
-    return(copy_list)
+#!/usr/bin/python3
+def copy_list(mylist):
+    return (mylist.copy())
 
