@@ -8,9 +8,9 @@ def read_file(filename=""):
     """
 
     """ Open the file in read mode ('r') with UTF-8 encoding."""
-    with open(filename, 'r', encoding='utf-8') as f:
+    with open(filename, 'r', encoding='utf-8') as file:
         """ Read the entire content of the file"""
-        content = f.read()
+        content = file.read()
 
         """ Print the content to stdout."""
         print(content)
