@@ -13,5 +13,5 @@ def read_file(filename=""):
         file_contents = file.read()
 
         """ Print the content to stdout."""
-        print(file_contents)
+        print(file_contents, end="")
 
