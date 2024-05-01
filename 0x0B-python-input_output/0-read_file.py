@@ -8,10 +8,10 @@ def read_file(filename=""):
     """
 
     """ Open the file in read mode ('r') with UTF-8 encoding."""
-    with open(filename, 'r', encoding='utf-8') as file:
+    with open('my_file_0.txt', 'r', encoding='utf-8') as file:
         """ Read the entire content of the file"""
-        content = file.read()
+        file_contents = file.read()
 
         """ Print the content to stdout."""
-        print(content)
+        print(file_contents)
 
